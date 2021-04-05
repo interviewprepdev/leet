@@ -8,7 +8,7 @@ public int countPrimes(int n) {
         for(int i = 3;i < n;i=i+2){//1.scan only odd number
             if(isCompositeArr[i]) continue;
             ans++;
-            if(i > upper) continue;//2. avoid i^2 overflow.
+            if(i > upper) continue;//2. avoid i^2 overflow., example input 499979, i ^2 will be -ve value, hence < n, avoiding array index out of bound here
             for(int j = i*i; j < n;j = j + 2*i){//3. initialize j to i^2
                                                 //4. increase 2i to keep j as an odd number
                 
