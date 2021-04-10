@@ -1,1 +1,3 @@
+1. Rotating array/linkedlist?: If n is the size of the array then rotating k values is same as rotating k%n values
+2. 
 
