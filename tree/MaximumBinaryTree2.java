@@ -13,6 +13,8 @@
  *     }
  * }
  */
+// Solution similar to discussion
+// https://leetcode.com/problems/maximum-binary-tree-ii/submissions/
 class Solution {
     public TreeNode insertIntoMaxTree(TreeNode root, int val) {        
         TreeNode n = new TreeNode(val);
