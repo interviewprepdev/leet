@@ -2,6 +2,7 @@ class Solution {
   //  [2147483647,-1,2147483647]
 //1
 //2147483647 remember to run for this corner case, (long) t + 1 and ((long)(t+1)) makes a difference here
+  // https://leetcode.com/problems/contains-duplicate-iii/submissions/ 
     public boolean containsNearbyAlmostDuplicate(int[] nums, int k, int t) {
      if (k < 1 || t < 0){
          return false;
