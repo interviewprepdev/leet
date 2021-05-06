@@ -1,3 +1,15 @@
-1. Rotating array/linkedlist?: If n is the size of the array then rotating k values is same as rotating k%n values
-2. 
+1. Rotating array/linkedlist?: If n is the size of the array then rotating k values is same as rotating k%n values. Likewise, if you want to find nextGreaterElement in a circular array we can iterate over the array twice with k%n as the array index. 
+2. Using stack pattern:
+  a) https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/   -- Minimum Cost Tree From Leaf Values
+  b) https://leetcode.com/problems/sum-of-subarray-minimums/discuss/170750/C++JavaPython-Stack-Solution  -- sum of sub array minimums
+  c) https://leetcode.com/problems/online-stock-span/discuss/168311/C++JavaPython-O(1) -- ONline stock plan
+  d) https://leetcode.com/problems/score-of-parentheses/discuss/141777/C++JavaPython-O(1)-Space -- Score of parantheses
+  e) Next Greater Element I
+Largest Rectangle in Histogram
+Trapping Rain Water
+ 3. Java Prioroty Queue: 
+  a) https://leetcode.com/problems/filter-restaurants-by-vegan-friendly-price-and-distance/discuss/?currentPage=1&orderBy=most_votes&query=
+      Priority queue: b - a - in descending order and a-b in ascending - by default java orders elements in ascending order/min heap
+ 4. 
+ 
 
