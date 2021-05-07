@@ -10,6 +10,8 @@ Trapping Rain Water
  3. Java Prioroty Queue: 
   a) https://leetcode.com/problems/filter-restaurants-by-vegan-friendly-price-and-distance/discuss/?currentPage=1&orderBy=most_votes&query=
       Priority queue: b - a - in descending order and a-b in ascending - by default java orders elements in ascending order/min heap
- 4. 
+ 4. Hashset:
+    a) Two sum
+    b) 
  
 
