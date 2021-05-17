@@ -13,5 +13,10 @@ Trapping Rain Water
  4. Hashset:
     a) Two sum
     b) https://leetcode.com/problems/fair-candy-swap/
+    
+    
+    
+    Tree:
+    1. Traversing a BST in in-order is like traversing through a sorted array
  
 
