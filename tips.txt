@@ -13,7 +13,9 @@ Trapping Rain Water
  4. Hashset:
     a) Two sum
     b) https://leetcode.com/problems/fair-candy-swap/
-    
+ 5. Implement stack using queues and queues using stack:
+      a) Queues can be implemented in amortized time using stack but not vice-versa
+      b) for two queue stack solution will have to swap queues on pop()
     
     
     Tree:
