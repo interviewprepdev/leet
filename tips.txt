@@ -22,3 +22,5 @@ Trapping Rain Water
     1. Traversing a BST in in-order is like traversing through a sorted array
  
 
+Binary Search:
+Template? https://leetcode.com/discuss/general-discussion/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems -- still reading
