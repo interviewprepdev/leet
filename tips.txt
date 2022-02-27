@@ -25,3 +25,8 @@ Trapping Rain Water
 Binary Search:
 Template? https://leetcode.com/discuss/general-discussion/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems -- still reading
 Condition function for kths smallest number in multiplication table: https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/discuss/1580357/C%2B%2BPython-Clean-and-Simple-Solution-w-Detailed-Explanation-or-Binary-Search-with-Proof
+
+
+Math forumlae:
+- Sum of first n numbers  1 + 2+ 3+...+n = n * (n+1) /2
+- Sum of squares: 1^2 + 2^2 +......n^2 = n * (n+1) * (2n+1) /6
