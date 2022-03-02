@@ -17,6 +17,9 @@ Trapping Rain Water
       a) Queues can be implemented in amortized time using stack but not vice-versa
       b) for two queue stack solution will have to swap queues on pop()
     
+   BFS:
+   - BFS can give you shortest path if in an unweighted graph Example problem: 
+    https://leetcode.com/problems/shortest-path-in-binary-matrix/discuss/312706/JAVA-BFS
     
     Tree:
     1. Traversing a BST in in-order is like traversing through a sorted array
