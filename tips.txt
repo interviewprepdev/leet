@@ -20,6 +20,7 @@ Trapping Rain Water
    BFS:
    - BFS can give you shortest path if in an unweighted graph Example problem: 
     https://leetcode.com/problems/shortest-path-in-binary-matrix/discuss/312706/JAVA-BFS
+    More notes here: https://stackoverflow.com/questions/8379785/how-does-a-breadth-first-search-work-when-looking-for-shortest-path
     
     Tree:
     1. Traversing a BST in in-order is like traversing through a sorted array
