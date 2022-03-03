@@ -25,7 +25,15 @@ Trapping Rain Water
     Tree:
     1. Traversing a BST in in-order is like traversing through a sorted array
  
+Quick select:
 
+Union find:
+Dynamic programming:
+Topological Sort:
+Dijkstras:
+Wiggle sort?:
+
+Advanced: A* 
 Binary Search:
 Template? https://leetcode.com/discuss/general-discussion/786126/Python-Powerful-Ultimate-Binary-Search-Template.-Solved-many-problems -- still reading
 Condition function for kths smallest number in multiplication table: https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/discuss/1580357/C%2B%2BPython-Clean-and-Simple-Solution-w-Detailed-Explanation-or-Binary-Search-with-Proof
