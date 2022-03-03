@@ -1,0 +1,1 @@
+1. Topological sorting is for Directed acyclic graph, i.e, the graph should be directed and should not have cycles
