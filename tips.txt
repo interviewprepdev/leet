@@ -27,12 +27,18 @@ Trapping Rain Water
     1. Traversing a BST in in-order is like traversing through a sorted array
  
 Quick select:
-
+intervals
 Union find:
 Dynamic programming:
 Topological Sort:
 Dijkstras:
 Wiggle sort?:
+
+Other:
+unit tests
+design patterns
+may be maven and other build tools
+
 
 Advanced: A* 
 Binary Search:
