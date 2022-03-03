@@ -1,0 +1,4 @@
+1. Disjoint sets to detect cycle in undirected graph
+2. Union find is all about sets: Union and find operation
+3. Find operation is to figure out which set the vertex belongs to
+4. weighted union and collapsing find
