@@ -36,6 +36,7 @@ Wiggle sort?:
 
 Other:
 unit tests
+Multi-threading - do leetcode probs related to this as well
 design patterns
 may be maven and other build tools
 
