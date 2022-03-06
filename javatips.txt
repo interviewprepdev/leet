@@ -1,0 +1,1 @@
+1. Don't do a hashmap.get(value)++ won't work. What would work is hashmap.get(value) + 1. Yet to figure out why maby just bracketing might fix not sure
