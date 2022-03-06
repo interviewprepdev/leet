@@ -25,6 +25,9 @@ Trapping Rain Water
     
     Tree:
     1. Traversing a BST in in-order is like traversing through a sorted array
+    
+    Topological sort: 
+    1. tempalte: https://leetcode.com/problems/course-schedule-ii/discuss/190393/Topological-Sort-Template-General-Approach!!
  
 Quick select:
 intervals
