@@ -42,7 +42,7 @@ unit tests
 Multi-threading - do leetcode probs related to this as well
 design patterns
 may be maven and other build tools
-
+Random function in java used in some of the quickselects like find Kth largest to have amortized O(N)
 
 Advanced: A* 
 Binary Search:
