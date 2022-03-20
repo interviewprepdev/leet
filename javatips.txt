@@ -8,3 +8,7 @@
 
 Good article on object level vs class level locks in java:
 https://howtodoinjava.com/java/multi-threading/object-vs-class-level-locking/
+
+
+java cheatsheet to refer:
+https://github-com.translate.goog/jsjtzyy/LeetCode/blob/master/Java%20cheat%20sheet%20for%20interview?_x_tr_sl=zh-CN&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc
