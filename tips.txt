@@ -30,7 +30,9 @@ Trapping Rain Water
     1. tempalte: https://leetcode.com/problems/course-schedule-ii/discuss/190393/Topological-Sort-Template-General-Approach!!
     
     Union find: 
-    good article on union find: https://medium.com/@RamkrishnaKulka/disjoint-set-union-union-find-the-same-blood-type-e67c51b1d2
+    1. good article on union find: https://medium.com/@RamkrishnaKulka/disjoint-set-union-union-find-the-same-blood-type-e67c51b1d2
+    2. Finding a cycle in undirected graph: walk through all the edges and when adding an edge if both the vertices belong to same set then there is a cycle
+    
  
 Quick select:
 intervals
