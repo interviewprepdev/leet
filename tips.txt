@@ -31,7 +31,7 @@ Trapping Rain Water
     
     Union find: 
     1. good article on union find: https://medium.com/@RamkrishnaKulka/disjoint-set-union-union-find-the-same-blood-type-e67c51b1d2
-    2. Finding a cycle in undirected graph: walk through all the edges and when adding an edge if both the vertices belong to same set then there is a cycle
+    2. Finding a cycle in undirected graph: walk through all the edges and when adding an edge if both the vertices are already in the same set then there is a cycle
     
  
 Quick select:
