@@ -3,6 +3,8 @@
 3. sb.charAt(i), sb.deleteCharAt(i) -- stringbuilder methods
 4. extends LinkedHashMapp<Integer, Integer> and constructor LRUCache(capacity, 0.75F, accessOrder:true); to main the order in which the elements where accessed
 5. both string and stringbuilder accessing element is O(1) using s.charAt(i)
+6. Queue<int[]> pq = new PriorityQueue<>((b-a)-> grid[b[0]][b[1]]) - grid[a[0]][a[1]]); // this is desending order as b comes first
+7. 
 
 
 
