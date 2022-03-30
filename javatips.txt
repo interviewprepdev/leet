@@ -1,6 +1,8 @@
 1. Don't do a hashmap.get(value)++ won't work. What would work is hashmap.get(value) + 1. Yet to figure out why maby just bracketing might fix not sure
 2. (char)('A' + n % 26) -- if n was 1 this will be character B and so on. ASCII addition
-3. sb.charAt(i), sb.deleteCharAt(i)
+3. sb.charAt(i), sb.deleteCharAt(i) -- stringbuilder methods
+4. extends LinkedHashMapp<Integer, Integer> and constructor LRUCache(capacity, 0.75F, accessOrder:true); to main the order in which the elements where accessed
+5. both string and stringbuilder accessing element is O(1) using s.charAt(i)
 
 
 
