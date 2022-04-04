@@ -57,3 +57,8 @@ Condition function for kths smallest number in multiplication table: https://lee
 Math forumlae:
 - Sum of first n numbers  1 + 2+ 3+...+n = n * (n+1) /2
 - Sum of squares: 1^2 + 2^2 +......n^2 = n * (n+1) * (2n+1) /6
+
+
+To look at later:
+- 4 sum or k sum 
+- iterative approach of sorting linkedlist - may be not worth it for just saving O(log n) stack in recursion
