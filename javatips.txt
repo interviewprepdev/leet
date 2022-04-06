@@ -5,6 +5,7 @@
 5. both string and stringbuilder accessing element is O(1) using s.charAt(i)
 6. Queue<int[]> pq = new PriorityQueue<>((b-a)-> grid[b[0]][b[1]]) - grid[a[0]][a[1]]); // this is desending order as b comes first
 7. Map.Entry<Character, Integer> e = hm.entrySet().iterator().next();
+8. cannot do string + char will not work, either use stringbuilder.append(char) or new string(new char[] {'a', 'b', 'c'});
 
 
 
