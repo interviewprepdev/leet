@@ -26,6 +26,8 @@ int[] arr = new int[4]
  arr[3]=2; 
 
  Arrays.sort(arr);
+ 
+ Even 2-D arrays can be sorted using Arrays.sort(intervals, (b, a)-> a[0]-b[0]);
 
 
 
