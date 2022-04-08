@@ -28,7 +28,8 @@ int[] arr = new int[4]
  Arrays.sort(arr);
  
  Even 2-D arrays can be sorted using Arrays.sort(intervals, (b, a)-> a[0]-b[0]);
-
+11. ArrayList<int[]> res = new ArrayList<>();
+12. To convert arraylist to int[]: arrayList.toArray(new int[arrayList.size()]);
 
 
 
