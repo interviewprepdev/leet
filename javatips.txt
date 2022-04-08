@@ -7,6 +7,25 @@
 7. Map.Entry<Character, Integer> e = hm.entrySet().iterator().next();
 8. cannot do string + char will not work, either use stringbuilder.append(char) or new string(new char[] {'a', 'b', 'c'});
 9. whatever size we specify during initializaiton of PQ is just the init size, it has the capacity to grow on its own
+10. Collections.sort() Operates on List Whereas Arrays.sort() Operates on an Array.
+Arrays.sort() uses Dual-Pivot Quicksort for Primitive Arrays and MergeSort for sorting array of Objects.
+Example of Collections.sort() :
+ ArrayList<Integer> arr = new ArrayList<Integer>();
+ arr.add(15);
+ arr.add(10);
+ arr.add(5); 
+ arr.add(2); 
+
+ Collections.sort(arr);
+Example of Arrays.sort() :
+
+int[] arr = new int[4]
+ arr[0]=15;
+ arr[1]=10;
+ arr[2]=5; 
+ arr[3]=2; 
+
+ Arrays.sort(arr);
 
 
 
