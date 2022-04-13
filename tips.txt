@@ -16,28 +16,28 @@ Trapping Rain Water
  5. Implement stack using queues and queues using stack:
       a) Queues can be implemented in amortized time using stack but not vice-versa
       b) for two queue stack solution will have to swap queues on pop()
-    
-   BFS:
+6. Intervals:
+  a) sometimes having a priority queue helps to hold the end interval value and pop it off when the interval ends
+  b) another way is to have a treemap - haven't tried it but seems much easier and fewer lines of code. For example, for treemap for carpool problem would have start+noOfPeople and end - no.OfPeople as value
+7. BFS:
    - BFS can give you shortest path if in an unweighted graph Example problem: 
     https://leetcode.com/problems/shortest-path-in-binary-matrix/discuss/312706/JAVA-BFS
     More notes here: https://stackoverflow.com/questions/8379785/how-does-a-breadth-first-search-work-when-looking-for-shortest-path
     If follow up for above leetcode question is find and print the path as well, will it become dijstras?
+ 8. Tree:
+    Traversing a BST in in-order is like traversing through a sorted array
+ 9. Topological sort: Topological sort is for DAG: Directed Acyclic graph, i.e, a graph with direction but no cycles. 
+    tempalte: https://leetcode.com/problems/course-schedule-ii/discuss/190393/Topological-Sort-Template-General-Approach!!
+    bascially having two hashmaps. One is hashmap<Integer, List<Integer>> List here is nodes that are dependent on key and another for hashmap<integer, integer> indegree map. If indegree is 0, then all the dependents are visited, it's time to visit this node. If at some point, none of the indegrees are 0 but there are still nodes to be visited then there is cycle. 
+ 10.     Union find:  
     
-    Tree:
-    1. Traversing a BST in in-order is like traversing through a sorted array
-    
-    Topological sort: 
-    1. tempalte: https://leetcode.com/problems/course-schedule-ii/discuss/190393/Topological-Sort-Template-General-Approach!!
-    
-    Union find: 
     1. good article on union find: https://medium.com/@RamkrishnaKulka/disjoint-set-union-union-find-the-same-blood-type-e67c51b1d2
     2. Finding a cycle in undirected graph: walk through all the edges and when adding an edge if both the vertices are already in the same set then there is a cycle
     
  
 Quick select:
-intervals
 Dynamic programming:
-Topological Sort:
+matrix
 Dijkstras:
 Wiggle sort?:
 
