@@ -34,7 +34,12 @@ int[] arr = new int[4]
 14. Both arraylist and linkedlist maintains insertion order. But linkedlist internally uses double linked list for implementation and arrylist is dynamic array
 
 
-
+Linkedlist vs ArrayList:
+- Both linkedlist and arraylist implement list interface
+- LinkedList internally is doubly linkedlist and arraylist is dynamically changing array
+- Arraylist is preferred in  most of the cases.  insertion in the beginning and removing in the end are the only advantages of LL. Arraylist reading is O(1) with index
+- Common methods in both get(index), add(key),add(inex, key), remove(key), remove(index)
+- There is also arraydeque which offers best of both worlds
 
 
 Good article on object level vs class level locks in java:
