@@ -3,7 +3,7 @@
 3. sb.charAt(i), sb.deleteCharAt(i) -- stringbuilder methods
 4. extends LinkedHashMapp<Integer, Integer> and constructor LRUCache(capacity, 0.75F, accessOrder:true); to main the order in which the elements where accessed
 5. both string and stringbuilder accessing element is O(1) using s.charAt(i)
-6. Queue<int[]> pq = new PriorityQueue<>((b-a)-> grid[b[0]][b[1]]) - grid[a[0]][a[1]]); // this is desending order as b comes first
+6. Queue<int[]> pq = new PriorityQueue<>((b-a)-> grid[b[0]][b[1]]) - grid[a[0]][a[1]]); // this is desending order as b comes first. the comparision parameter in the PQ need not be the elements that go to PQ, ie, you can compare hashmap values and put in corresponsing hashmap keys in the PQ
 7. Map.Entry<Character, Integer> e = hm.entrySet().iterator().next();
 8. cannot do string + char will not work, either use stringbuilder.append(char) or new string(new char[] {'a', 'b', 'c'});
 9. whatever size we specify during initializaiton of PQ is just the init size, it has the capacity to grow on its own
