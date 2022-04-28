@@ -30,7 +30,7 @@ int[] arr = new int[4]
  
  Even 2-D arrays can be sorted using Arrays.sort(intervals, (b, a)-> a[0]-b[0]);
 11. ArrayList<int[]> res = new ArrayList<>();
-12. To convert arraylist to int[]: arrayList.toArray(new int[arrayList.size()]);
+12. To convert arraylist to int[]: arrayList.toArray(new int[arrayList.size()]);// this works for integer aray but not for primitive types. For primitive either use stream or use for loop
 13. comparable interface implements compareTo with one variable implements Comparable<className>. Comparable is used in the same class to compare so only one compareto is allowed. For multiple comparator use comparator and override compare method
 14. Both arraylist and linkedlist maintains insertion order. But linkedlist internally uses double linked list for implementation and arrylist is dynamic array
 15. very important and ashamed for forgetting this: (it's been sometime since I actively coded!!!) when we try to convert character array to string using toString() operation it only converts it to array of string representation and printing it will only print the first reference value of it
