@@ -40,6 +40,8 @@ Dynamic programming:
 matrix
 Dijkstras:
 Wiggle sort?:
+Trie
+Segment tree
 
 Other:
 unit tests
