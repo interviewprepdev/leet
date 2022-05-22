@@ -36,7 +36,7 @@ convert arraylist<int[]> result to int[][] use result.toArray(new int[res.size()
 14. Both arraylist and linkedlist maintains insertion order. But linkedlist internally uses double linked list for implementation and arrylist is dynamic array
 15. very important and ashamed for forgetting this: (it's been sometime since I actively coded!!!) when we try to convert character array to string using toString() operation it only converts it to array of string representation and printing it will only print the first reference value of it
 16. Character.toLowerCase(c), Character.toUpperCase(c), charcter.isLetterOrDigit(c)
-17. 
+17. s.split("\\s+"); -- this is to split a string with more than one space and trim it off reference: https://leetcode.com/problems/reverse-words-in-a-string/
 
 
 
