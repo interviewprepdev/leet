@@ -64,3 +64,18 @@ Math forumlae:
 To look at later:
 - 4 sum or k sum 
 - iterative approach of sorting linkedlist - may be not worth it for just saving O(log n) stack in recursion
+
+
+Binary search template:
+
+def binary_search(array) -> int:
+    def condition(value) -> bool:
+        pass
+    left, right = 0, len(array)
+    while left < right:
+        mid = left + (right - left) // 2
+        if condition(mid):
+            right = mid
+        else:
+            left = mid + 1
+    return left
