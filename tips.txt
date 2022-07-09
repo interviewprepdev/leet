@@ -5,6 +5,7 @@
   c) https://leetcode.com/problems/online-stock-span/discuss/168311/C++JavaPython-O(1) -- ONline stock plan
   d) https://leetcode.com/problems/score-of-parentheses/discuss/141777/C++JavaPython-O(1)-Space -- Score of parantheses
   e) Next Greater Element I
+  f) https://leetcode.com/problems/maximum-binary-tree/
 Largest Rectangle in Histogram
 Trapping Rain Water
  3. Java Prioroty Queue: 
